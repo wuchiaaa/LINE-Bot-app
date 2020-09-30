@@ -1,6 +1,6 @@
 # LINE-Bot-app
 
-Inquire: AQI and currency rate
+# Inquire: AQI and currency rate
 
 API: Line Developer - Messaging API
 
