@@ -1,0 +1,31 @@
+<pip套件>
+pip install django
+pip install line-bot-sdk
+pip install twder
+pip install jieba
+
+文檔要求：
+runtime.txt
+requirements.txt    (使用pip freeze > requirements.txt)
+Procfile
+
+<cmd>
+進行Heroku Deploy操作
+$ heroku login
+$ cd 資料夾
+$ git init
+$ heroku git:clone -a line-bot-wuchiaaa
+$ heroku config:set DISABLE_COLLECTSTATIC=1
+
+部屬程式到Heroku
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+
+參考網址：
+https://wreadit.com/@wwwlearncodewithmikecom/post/98653
+https://ithelp.ithome.com.tw/articles/10218874
+https://reurl.cc/q8Vpbq
+https://www.learncodewithmike.com/2020/04/django-heroku.html
+https://ithelp.ithome.com.tw/articles/10218874 (Flask)
